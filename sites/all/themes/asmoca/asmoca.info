@@ -1,0 +1,36 @@
+name = asmoca
+description = A custom theme for the San Angelico Museum of Contemporary Art
+core = 7.x
+
+; CSS
+stylesheets[all][] = assets/css/reset.css
+stylesheets[all][] = assets/css/typography.css
+stylesheets[all][] = assets/css/layout.css
+stylesheets[all][] = assets/css/drupal.css
+
+; JS
+
+scripts[] = assets/js/selectivizr-min.js
+
+
+; Regions
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[sidebar] = Sidebar
+
+
+regions[social] = Social Icons
+regions[footer] = Footer
+
+
+; settings[shortcut_module_link] = 0
+
